@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "2ab46dec-5955-476e-a580-384fe42cca8b",
+      "name": "Amit",
+      "email": "amitshaw1507@gmail.com",
+      "password": "amit@course",
+      "createdAt": "2026-07-29T13:46:10.361Z"
+    }
+  ],
+  "purchases": []
+}

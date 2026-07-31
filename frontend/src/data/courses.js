@@ -1,0 +1,161 @@
+export const courses = [
+  {
+    id: "html",
+    title: "HTML Fundamentals",
+    subtitle: "Build solid structure for the web",
+    description: "Master the building blocks of every website. Learn semantic HTML5, forms, accessibility, SEO basics and modern best practices from scratch.",
+    longDescription: "This beginner-friendly course takes you from zero to confident HTML developer. You'll learn tags, structure, forms, tables, media embedding, semantic markup, accessibility (ARIA), and how search engines read your pages.",
+    price: 499,
+    originalPrice: 999,
+    level: "Beginner",
+    duration: "6 hours",
+    lessons: 28,
+    language: "English + Hindi support",
+    category: "Frontend",
+    color: "#e34c26",
+    icon: "html",
+    zipUrl: "https://example.com/courses/html-fundamentals.zip", // ← Replace with your real ZIP link later
+    features: ["Semantic HTML5 tags", "Forms & validation", "Accessibility & SEO", "Media & embeds", "Projects included", "Lifetime access"],
+    curriculum: [
+      { title: "Introduction to HTML", lessons: 4 },
+      { title: "Document Structure & Head", lessons: 5 },
+      { title: "Text, Lists & Links", lessons: 6 },
+      { title: "Images, Media & Tables", lessons: 5 },
+      { title: "Forms & Input Types", lessons: 5 },
+      { title: "Semantic HTML & Accessibility", lessons: 3 }
+    ]
+  },
+  {
+    id: "css",
+    title: "CSS Mastery",
+    subtitle: "Design beautiful responsive interfaces",
+    description: "Go from basic styles to advanced layouts, animations, Flexbox, Grid, and modern CSS techniques used by professional designers.",
+    longDescription: "Transform plain HTML into stunning websites. This course covers everything from selectors and the box model to Flexbox, CSS Grid, responsive design, custom properties, transitions, animations, and modern layout techniques.",
+    price: 599,
+    originalPrice: 1199,
+    level: "Beginner to Intermediate",
+    duration: "9 hours",
+    lessons: 42,
+    language: "English + Hindi support",
+    category: "Frontend",
+    color: "#264de4",
+    icon: "css",
+    zipUrl: "https://example.com/courses/css-mastery.zip",
+    features: ["Flexbox & CSS Grid", "Responsive design", "Animations & transitions", "CSS variables", "Modern layouts", "Lifetime access"],
+    curriculum: [
+      { title: "CSS Fundamentals", lessons: 6 },
+      { title: "Box Model & Positioning", lessons: 7 },
+      { title: "Flexbox Deep Dive", lessons: 8 },
+      { title: "CSS Grid Mastery", lessons: 8 },
+      { title: "Responsive Design", lessons: 7 },
+      { title: "Animations & Advanced", lessons: 6 }
+    ]
+  },
+  {
+    id: "javascript",
+    title: "JavaScript Essentials",
+    subtitle: "Make websites interactive & dynamic",
+    description: "Learn modern JavaScript from the ground up — variables, functions, DOM, events, async programming, ES6+ features and real-world projects.",
+    longDescription: "JavaScript is the language of the web. This comprehensive course covers core concepts, modern ES6+ syntax, DOM manipulation, event handling, asynchronous JavaScript (Promises, async/await), fetch API, local storage, and building interactive applications.",
+    price: 799,
+    originalPrice: 1599,
+    level: "Beginner to Intermediate",
+    duration: "14 hours",
+    lessons: 58,
+    language: "English + Hindi support",
+    category: "Frontend",
+    color: "#f7df1e",
+    icon: "js",
+    zipUrl: "https://example.com/courses/javascript-essentials.zip",
+    features: ["Modern ES6+ syntax", "DOM & Events", "Async / Await & Fetch", "Local Storage", "Mini projects", "Lifetime access"],
+    curriculum: [
+      { title: "JS Basics & Syntax", lessons: 10 },
+      { title: "Functions & Scope", lessons: 9 },
+      { title: "Arrays, Objects & Loops", lessons: 10 },
+      { title: "DOM Manipulation", lessons: 11 },
+      { title: "Async JavaScript", lessons: 10 },
+      { title: "Projects & Best Practices", lessons: 8 }
+    ]
+  },
+  {
+    id: "react",
+    title: "React.js Complete Guide",
+    subtitle: "Build modern frontend applications",
+    description: "Master React from fundamentals to advanced patterns — components, hooks, state management, routing, and building production-ready apps.",
+    longDescription: "Become a React developer. Learn functional components, hooks (useState, useEffect, useContext, custom hooks), React Router, state management patterns, form handling, API integration, performance optimization, and how to structure real-world applications.",
+    price: 1499,
+    originalPrice: 2999,
+    level: "Intermediate",
+    duration: "22 hours",
+    lessons: 75,
+    language: "English + Hindi support",
+    category: "Frontend",
+    color: "#61dafb",
+    icon: "react",
+    zipUrl: "https://example.com/courses/react-complete.zip",
+    features: ["Hooks & modern React", "React Router", "State management", "API integration", "Real projects", "Lifetime access"],
+    curriculum: [
+      { title: "React Fundamentals", lessons: 12 },
+      { title: "Hooks Deep Dive", lessons: 15 },
+      { title: "Routing & Navigation", lessons: 10 },
+      { title: "State & Data Fetching", lessons: 14 },
+      { title: "Forms & Advanced Patterns", lessons: 12 },
+      { title: "Projects & Deployment", lessons: 12 }
+    ]
+  },
+  {
+    id: "nodejs",
+    title: "Node.js Backend Development",
+    subtitle: "Build fast & scalable server applications",
+    description: "Learn to create powerful backends with Node.js, Express, REST APIs, authentication, file handling and deployment.",
+    longDescription: "Go full-stack. This course teaches Node.js fundamentals, Express.js framework, building RESTful APIs, middleware, authentication (JWT), working with databases, file uploads, error handling, security best practices, and deploying your applications.",
+    price: 1299,
+    originalPrice: 2499,
+    level: "Intermediate",
+    duration: "18 hours",
+    lessons: 64,
+    language: "English + Hindi support",
+    category: "Backend",
+    color: "#68a063",
+    icon: "node",
+    zipUrl: "https://example.com/courses/nodejs-backend.zip",
+    features: ["Express.js & REST APIs", "JWT Authentication", "Middleware & security", "File handling", "Deployment", "Lifetime access"],
+    curriculum: [
+      { title: "Node.js Fundamentals", lessons: 10 },
+      { title: "Express.js Framework", lessons: 12 },
+      { title: "REST API Design", lessons: 11 },
+      { title: "Authentication & Security", lessons: 12 },
+      { title: "Advanced Features", lessons: 10 },
+      { title: "Deployment & Best Practices", lessons: 9 }
+    ]
+  },
+  {
+    id: "sql",
+    title: "SQL & Database Mastery",
+    subtitle: "Store, query and manage data like a pro",
+    description: "Learn SQL from basics to advanced queries, joins, indexing, database design and working with real databases used in production.",
+    longDescription: "Data is the heart of every application. This course covers relational database concepts, writing efficient SQL queries, joins, subqueries, aggregations, indexing, normalization, transactions, and practical work with PostgreSQL / MySQL style databases.",
+    price: 699,
+    originalPrice: 1399,
+    level: "Beginner to Intermediate",
+    duration: "10 hours",
+    lessons: 45,
+    language: "English + Hindi support",
+    category: "Backend",
+    color: "#00758f",
+    icon: "sql",
+    zipUrl: "https://example.com/courses/sql-mastery.zip",
+    features: ["SQL queries & joins", "Database design", "Indexing & performance", "Aggregations", "Real database practice", "Lifetime access"],
+    curriculum: [
+      { title: "Database Fundamentals", lessons: 6 },
+      { title: "Basic SELECT Queries", lessons: 8 },
+      { title: "Joins & Relationships", lessons: 9 },
+      { title: "Advanced Queries", lessons: 9 },
+      { title: "Design & Normalization", lessons: 7 },
+      { title: "Performance & Practice", lessons: 6 }
+    ]
+  }
+];
+
+export const RAZORPAY_LINK = "https://razorpay.me/@amitshaw9110";
+export const API_URL = import.meta.env.VITE_API_URL || "";
