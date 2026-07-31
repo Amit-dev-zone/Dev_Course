@@ -143,7 +143,7 @@ function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer-inner">
-          <p>© {new Date().getFullYear()} DevMaster Courses. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} DevMaster Courses. All rights .</p>
           <div className="footer-links">
             <a href="mailto:support@devmaster.example">Support</a>
             <a href={RAZORPAY_LINK} target="_blank" rel="noopener noreferrer">Payments</a>
